@@ -6,4 +6,8 @@ public class WizardHero extends Superhero {
     super(name);
   }
 
+  public String fly(){
+    return this.getName() + " is flying with a broom!";
+  }
+
 }
