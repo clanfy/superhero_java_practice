@@ -18,4 +18,8 @@ public abstract class Superhero {
     return "Hello, my name is " + this.name + " and I'm here to save the day.";
   }
 
+  public String fly(){
+    return this.name + " is now flying!";
+  }
+
 }

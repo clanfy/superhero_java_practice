@@ -21,4 +21,9 @@ public class MarvelHeroTest {
     assertEquals("Hello, my name is Dr. Strange and I'm here to save the day.", marvelHero.talk());
   }
 
+  @Test
+  public void canFly(){
+    assertEquals("Dr. Strange is now flying!", marvelHero.fly());
+  }
+
 }
