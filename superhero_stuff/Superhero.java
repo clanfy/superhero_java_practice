@@ -14,4 +14,8 @@ public abstract class Superhero {
     return this.name;
   }
 
+  public String talk(){
+    return "Hello, my name is " + this.name + " and I'm here to save the day.";
+  }
+
 }

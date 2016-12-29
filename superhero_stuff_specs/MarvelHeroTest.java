@@ -16,4 +16,9 @@ public class MarvelHeroTest {
     assertEquals("Dr. Strange", marvelHero.getName());
   }
 
+  @Test
+  public void canTalk(){
+    assertEquals("Hello, my name is Dr. Strange and I'm here to save the day.", marvelHero.talk());
+  }
+
 }
