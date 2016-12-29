@@ -1,11 +1,11 @@
 package superhero_stuff;
 
-public abstract class SuperHero {
+public abstract class Superhero {
 
   private String name;
   private double health;
   
-  public SuperHero (String name){
+  public Superhero (String name){
     this.name = name;
     this.health = 100.0;
   }
